@@ -1,12 +1,16 @@
 body{
     scroll-behavior: smooth;
     overflow-x:hidden;
+    background-image: url("images/Abstract\ Colorful\ Background.svg");
+    background-repeat: repeat;
+    margin: 0px;
+
 }
 
 .wave{
     margin-left: -10px;
     margin-right: -10px;
-    margin-top: 90px;
+    margin-top: -2%;
 }
 
 nav{
@@ -23,7 +27,7 @@ nav{
     opacity: 100%;
     background-color: #0099ff;
     margin-left: -10px;
-    margin-right: 
+    /* margin-right:  */
 }
 .navContent{
     margin-bottom: 5px;
@@ -49,4 +53,53 @@ nav{
 }
 #hjem{
     margin-left: 5%;
+}
+#middle{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#news{
+    background-color: #aa0e28;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: -1%;
+    height: 300px;
+}
+#frontVideo{
+    width: 100%;
+    height: auto;
+}
+
+#newsItems{
+    display: flex;
+    justify-content: space-around;
+}
+.newsItem{
+    border: solid white 1px;
+    height: 150px;
+    padding: 5px;
+}
+.newsItem:hover{
+    transform: scale(1.1);
+}
+#announcements{
+    background-color: #f8f8f8;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: -1%;
+    height: 300px;
+}
+#announcementItems{
+    display: flex;
+    justify-content: space-around;
+}
+.announcementItem{
+    border: solid black 1px;
+    height: 150px;
+    padding: 5px;
+}
+.announcementItem:hover{
+    transform: scale(1.1);
 }
