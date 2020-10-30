@@ -1,0 +1,52 @@
+body{
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+}
+
+.wave{
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 90px;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 101%;
+   margin-top: -10px;
+    z-index: 99;
+    
+    height: 100px;
+    opacity: 100%;
+    background-color: #0099ff;
+    margin-left: -10px;
+    margin-right: 
+}
+.navContent{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 2em;
+    text-decoration: none;
+    user-select: none;
+    color: white;
+}
+.navContent:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform 0.1s;
+}
+#navLogo{
+    margin-left: 25px;
+    height: 100px;
+    width: auto;
+    display: none;
+}
+#contact{
+    margin-right: 5%;
+}
+#hjem{
+    margin-left: 5%;
+}
