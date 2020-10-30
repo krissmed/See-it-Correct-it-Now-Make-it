@@ -1,33 +1,28 @@
 body{
     scroll-behavior: smooth;
-    overflow-x:hidden;
     background-image: url("images/Abstract\ Colorful\ Background.svg");
     background-repeat: repeat;
+    overflow-x: hidden;
     margin: 0px;
 
 }
-
 .wave{
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -2%;
 }
-
 nav{
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    width: 101%;
+    width: 100%;
    margin-top: -10px;
     z-index: 99;
-    
     height: 100px;
     opacity: 100%;
     background-color: #0099ff;
     margin-left: -10px;
-    /* margin-right:  */
 }
 .navContent{
     margin-bottom: 5px;
@@ -44,9 +39,9 @@ nav{
 }
 #navLogo{
     margin-left: 25px;
+    margin-top: 10px;
     height: 100px;
     width: auto;
-    display: none;
 }
 #contact{
     margin-right: 5%;
@@ -83,6 +78,10 @@ nav{
 .newsItem:hover{
     transform: scale(1.1);
 }
+.readMore{
+    cursor: pointer;
+    text-decoration: underline;
+}
 #announcements{
     background-color: #f8f8f8;
     color: black;
@@ -90,6 +89,9 @@ nav{
     padding-right: 5%;
     margin-top: -1%;
     height: 300px;
+}
+.studies{
+    font-size: 2em;
 }
 #announcementItems{
     display: flex;
@@ -102,4 +104,19 @@ nav{
 }
 .announcementItem:hover{
     transform: scale(1.1);
+}
+#social{
+    background-color: cornflowerblue;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#followUs{
+    display: flex;
+    justify-content: space-around;
+}
+.socialIcon{
+    width: 100px;
+}
+.socialIcon:hover{
+    cursor: pointer;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nb"></html>
+<html lang="nb">
 
 
 <head>
@@ -9,15 +9,16 @@
 </head>
 <body>
     <nav>
+        <img src="images/uat-logo.png" id="navLogo"> 
         <a href="index.html" id="hjem" class="navContent">Hjem</a>
         <a href="#news" class="navContent">News and Events</a>
-        <a href="" class="navContent">Announcements</a>
-        <a href="" class="navContent">Follow us</a>
-        <a href="" id="contact" class="navContent">Apply at UAT </a>
+        <a href="#announcements" class="navContent">Announcements</a>
+        <a href="" class="navContent">Apply at UAT</a>
+        <a href="" id="contact" class="navContent">Follow us</a>
     </nav>
     
     <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,128L48,112C96,96,192,64,288,90.7C384,117,480,203,576,234.7C672,267,768,245,864,224C960,203,1056,181,1152,176C1248,171,1344,181,1392,186.7L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-    <video id="frontVideo" loop autoplay controls>
+    <video id="frontVideo" loop autoplay>
         <source id="frontVideo" src="images/home-video.mp4" type="video/mp4">
     </video>
     <div id="news">
@@ -26,14 +27,17 @@
             <div class="newsItem">
                 <h2>What I wish I knew</h2>
                 <p>Professor Peters shares what she wished she knew before college [...]</p>
+                <p class="readMore">Read more...</p>
             </div>
             <div class="newsItem">
                 <h2>UAT Refurbathan results</h2>
                 <p>UAT student build 121 free computers for title 1 schools [...]</p>
+                <p class="readMore">Read more...</p>
             </div>
             <div class="newsItem">
                 <h2>UAT virtual open house</h2>
                 <p>Take in immersive look at our innovative degree programs to see what [...]</p>
+                <p class="readMore">Read more...</p>
             </div>
         </div>
     </div>
@@ -43,16 +47,57 @@
             <div class="announcementItem">
                 <h2>What I wish I knew</h2>
                 <p>Professor Peters shares what she wished she knew before college [...]</p>
+                <p class="readMore">Read more...</p>
             </div>
             <div class="announcementItem">
                 <h2>UAT Refurbathan results</h2>
                 <p>UAT student build 121 free computers for title 1 schools [...]</p>
+                <p class="readMore">Read more...</p>
             </div>
             <div class="announcementItem">
                 <h2>UAT virtual open house</h2>
                 <p>Take in immersive look at our innovative degree programs to see what [...]</p>
+                <p class="readMore">Read more...</p>
             </div>
         </div>
     </div>
+    <div id="apply">
+        <h1 style="font-size: 3em;">Apply at UAT</h1>
+        <div id="announcementItems"></div>
+        <div class="announcementItem">
+            <h2>Business & Innovation</h2>
+            <a class="studies"> - Buisness Technology</a><br>
+            <a class="studies"> - Technology Innovation (MS)</a><br>
+            <a class="studies"> - Technology Ledership (MS)</a><br>
+            <a class="studies"> - Technology Studies</a>
+        </div>
+        <div class="announcementItem">
+            <h2>UAT Refurbathan results</h2>
+            <p>UAT student build 121 free computers for title 1 schools [...]</p>
+            <p class="readMore">Read more...</p>
+        </div>
+        <div class="announcementItem">
+            <h2>UAT virtual open house</h2>
+            <p>Take in immersive look at our innovative degree programs to see what [...]</p>
+            <p class="readMore">Read more...</p>
+        </div>
+        </div>
+        <div id="applyButton">
+
+        </div>
     </div>
+    <div id="social">
+        <h1 style="font-size: 3em;">Follow us</h1>    
+        <div id="followUs">
+            <img class="socialIcon" src="images/facebook.png">
+            <img class="socialIcon" src="images/flickr.png">
+            <img class="socialIcon" src="images/instagram.png">
+            <img class="socialIcon" src="images/reddit.png">
+            <img class="socialIcon" src="images/snap.png">
+            <img class="socialIcon" src="images/twitch.png">
+            <img class="socialIcon" src="images/twitter.png">
+            <img class="socialIcon" src="images/youtube.png">
+        </div>
+</div>
 </body>
+</html>
